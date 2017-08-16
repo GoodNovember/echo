@@ -71,7 +71,7 @@ function beginVisualization(){
 
 	function bleedUp(){
 		var imgData = vctx.getImageData(0,0,1024, vctx.canvas.height)
-		vctx.putImageData(imgData, 0,-1)
+		vctx.putImageData(imgData, 0,-1 * getDPR())
 	}
 
 	function sizeCanvas(){
