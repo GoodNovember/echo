@@ -77,7 +77,7 @@ function beginVisualization(){
 	function sizeCanvas(){
 		var parent = cvs.parentNode;
 		var targetWidth =  1024
-		var targetHeight = parent.clientHeight * getDPR()
+		var targetHeight = parent.clientHeight
 		if(cvs.width !== targetWidth || cvs.height !== targetHeight){
 			cvs.width = targetWidth
 			cvs.height = targetHeight
