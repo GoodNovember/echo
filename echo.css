@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+}
+
+#app.stopped button.stop{
+	display:none
+}
+
+#app.started button.start{
+	display:none
+}
+
+.screen{
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+
+.screen canvas{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.buttons{
+	position: absolute;
+	display: flex;
+	top:0;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.buttons button{
+	background: transparent;
+	border:none;
+}
+
+body{
+	margin: 0;
+}
